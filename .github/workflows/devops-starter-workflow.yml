@@ -5,15 +5,14 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: "fcu-bmi-calculator"    # set this to your application's name
+  AZURE_WEBAPP_NAME: "demo-1206"    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: "Application"      # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.7.5'                       # set this to the python version to use
-  RESOURCEGROUPNAME: "fcu-bmi-calculator-rg"
-  LOCATION: "East Asia"
-  HOSTINGPLANNAME: "fcu-bmi-calculator-plan"
-  APPINSIGHTLOCATION: "East Asia"
-  SKU: "B1"
-  SONAR_HOST_URL: "http://20.194.33.30"
+  RESOURCEGROUPNAME: "demo-1206-rg"
+  LOCATION: "Japan East"
+  HOSTINGPLANNAME: "demo-1206-plan"
+  APPINSIGHTLOCATION: "Japan East"
+  SKU: "S1 Standard"
 
 jobs:
   Build:
