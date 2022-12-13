@@ -30,7 +30,7 @@ class BmiCalculatorTest(TestCase):
         def setUpClass(cls):
             super(BmiCalculatorTest, cls).setUpClass()
 
-    def test_bmi_result_normal(self):
+        def test_bmi_result_normal(self):
         """Tests bmi result."""
         height = 1.6
         weight = 55
@@ -59,7 +59,7 @@ class BmiCalculatorTest(TestCase):
         height = 1.5
         weight = 100
         bmi, bmi_means = bmi_calculator(height, weight)
-        self.assertEqual(bmi, 40.44)
+        self.assertEqual(bmi, 44.44)
         self.assertEqual(bmi_means, '重度肥胖')
     
     def test_bmi_result_normal(self):
